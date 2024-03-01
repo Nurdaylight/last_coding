@@ -9,6 +9,7 @@ drop if mi(value)
 keep series seriescode countrycode value
 
 *checking value variable type
+
 describe value
 
 * Summarize the "value" variable 
