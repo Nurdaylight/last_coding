@@ -8,3 +8,16 @@ for i in list:
       print(i)
 
 
+# LO3 declaring new empty list
+new_list = []
+
+# dooing the same logic fo loop as above but trying to store all odd values into new list
+for i in list:
+  # Checking if the value is odd
+    if i % 2 != 0:
+        # adding the odd value to the new list
+        new_list.append(i)
+
+# printing out new list
+print("List of odd values:", new_list)
+
